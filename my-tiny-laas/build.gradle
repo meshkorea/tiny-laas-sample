@@ -10,11 +10,9 @@ description = 'my-tiny-laas'
 
 allprojects {
 
-//    configurations {
-//        compileOnly {
-//            extendsFrom annotationProcessor
-//        }
-//    }
+    apply plugin: 'java'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
 
     repositories {
         mavenCentral()
