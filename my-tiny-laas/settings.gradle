@@ -1,3 +1,4 @@
 rootProject.name = 'my-tiny-laas'
 
 include("order")
+include("order:web-api")
